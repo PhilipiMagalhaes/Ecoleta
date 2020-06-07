@@ -1,0 +1,27 @@
+{
+  "name": "ecoleta",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "database": "node src/database/db.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhilipiMagalhaes/Ecoleta.git"
+  },
+  "author": "Philipi Magalhães",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PhilipiMagalhaes/Ecoleta/issues"
+  },
+  "homepage": "https://github.com/PhilipiMagalhaes/Ecoleta#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
